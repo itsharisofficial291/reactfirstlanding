@@ -4,6 +4,7 @@ import '../global.css';
 
 export default function Plans() {
   return (
+    <section id="plans" className="py-10">
     <div className="plan-container">
       <div className="plan-grid">
         {/* First Plan */}
@@ -46,5 +47,6 @@ export default function Plans() {
         </div>
       </div>
     </div>
+    </section>
   );
 }

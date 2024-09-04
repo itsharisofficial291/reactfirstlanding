@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function Newsletter() {
     return (
+        <section id="Newsletter" className="py-10">
         <div className="bg-blue-400 p-4 w-full h-auto grid">
             <div className='m-2 max-w-[1240px] w-full mx-auto flex flex-col md:flex-row justify-between items-center py-[50px]'>
                 {/* Text Section */}
@@ -24,5 +25,6 @@ export default function Newsletter() {
                 </div>
             </div>
         </div>
+        </section>
     );
 }

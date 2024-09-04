@@ -3,6 +3,7 @@ import computer from '../assets/images/computer.jpg';
 
 export default function Experts() {
   return (
+   <section id="experts" className="py-10">
     <div className="max-w-[1240px] mx-auto p-14 md:grid grid-cols-2 gap-10 items-center justify-center">
       {/* Image Section on the Left */}
       <div className="md:ml-10 w-full h-full md:w-[90%] flex flex-col justify-center rounded  object-cover">
@@ -18,5 +19,6 @@ export default function Experts() {
         <button className="sm:w-[50%] md:w-[40%] p-3 bg-black text-white rounded mt-5">Get Started</button>
       </div>
     </div>
+    </section>
   );
 }
